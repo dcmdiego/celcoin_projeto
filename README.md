@@ -35,4 +35,6 @@ Dados como senhas, chaves de API, URLS de acesso e afins devem ser inseridos den
 
 ### `O sistema deve permitir que o usuário acumule os itens dentro de um carrinho de compras antes de fechar o seu pedido`
 
-Essa funcionalidade só funciona na página detalhada do produto. Dentro do carrinho, mesmo possuindo os botões de adicionar/remover itens, não está funcionando
+Essa funcionalidade só funciona na página detalhada do produto. Dentro do carrinho, mesmo possuindo os botões de adicionar/remover itens, não está funcionando. 
+
+Da mesma forma, existe o botão de remover o produto do carrinho, mas não está funcionando. Apenas o botão de remover todos os itens está funcionavel
