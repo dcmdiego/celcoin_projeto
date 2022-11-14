@@ -56,6 +56,7 @@
   border: none;
   padding: 10px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .RevisaoPage .content__revisao__buttons .confirm {

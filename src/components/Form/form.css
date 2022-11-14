@@ -1,7 +1,7 @@
 .Form{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(92, 55, 55, 0.35) 0px 5px 15px;
     margin-bottom: 80px;
-    width: 420px;
+    width: 350px;
     display: flex;
     justify-content: center;
 }

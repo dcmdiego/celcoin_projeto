@@ -4,9 +4,9 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display: flex;
     margin: 20px;
-    padding: 20px;
+    padding: 10px;
     height: 150px;
-    width: 380px;
+    width: 340px;
     align-items: center;
     justify-items: center;
 }
@@ -22,7 +22,7 @@
 /* Item (produto) */
 
 .CartProduct .product{
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .CartProduct .product div{
@@ -61,7 +61,7 @@
 .CartProduct .remove__product .remove__product__button{ 
     border: none;
     background-color: #FFF;
-    margin-left: 20px;
+    margin-left: 10px;
     cursor: pointer;
 }
 
