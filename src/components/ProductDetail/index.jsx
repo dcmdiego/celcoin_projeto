@@ -31,6 +31,21 @@ const ProductDetail = (props) => {
         })
     }, [totalPrice])
 
+
+    // Somar e Diminuir a quantidade dos itens
+    const SumItem = () => {
+        setQntItem(qntItem + 1);
+    };
+
+    const SubItem = () => {
+        setQntItem(qntItem - 1);
+    };
+
+    // Atualizar o preço total do produto
+    const TotalPrice = () => {
+        setTotalPrice(qntItem * basePrice)
+    };
+
     // Verificar se a quantidade é menor que 1 (situação que não pode acontecer)
     useEffect(() => {
 
@@ -42,21 +57,7 @@ const ProductDetail = (props) => {
             TotalPrice()
     }
 
-    // Atualizar o preço total do produto
-    const TotalPrice = () => {
-        setTotalPrice(qntItem * basePrice)
-    };
-
     }, [qntItem]);
-
-    // Somar e Diminuir a quantidade dos itens
-    const SumItem = () => {
-        setQntItem(qntItem + 1);
-    };
-
-    const SubItem = () => {
-        setQntItem(qntItem - 1);
-    };
 
     // Adicionar o produto no carrinho
     const addProductCart = () => {
