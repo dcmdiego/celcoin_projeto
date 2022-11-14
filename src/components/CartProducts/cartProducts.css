@@ -1,0 +1,40 @@
+/* Formatções Gerais */
+
+.CartProducts{
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+/* Cards dos produtos */
+
+.CartProducts .cart__infos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    padding: 10px;
+    width: 420px;
+    box-sizing: border-box;
+    margin-left: 20px;
+}
+
+.CartProducts .price__total{
+    font-size: 1.2rem;
+}
+
+.CartProducts .price__total p{
+    padding: 10px;
+    font-weight: bolder;
+}
+
+/* Resetar o carrinho */
+
+.CartProducts .resetCart button{
+    border: none;
+    background-color: #FF6961;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-weight: bolder;
+}

@@ -1,0 +1,59 @@
+/* Formatações Gerais */
+
+.Product .product__item{
+    width: 250px;
+    height: 410px;
+    margin: 25px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* Imagem */
+
+.Product .product__image{
+    background: url("https://via.placeholder.com/250x250/12322f");
+    width: 250px;
+    height: 250px;
+}
+
+/* Textos */
+
+.Product .product__text{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.Product .product__text .price{
+    padding-top: 20px;
+}
+
+
+/* Botoes */
+
+.Product .product__button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.Product .product__item button{
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #434375;
+    color: #dce0e6;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.Product .product__item button:hover{
+    cursor: pointer;
+    background-color: #2f2f75;
+}
+
+
+
+
+

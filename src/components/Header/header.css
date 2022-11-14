@@ -1,0 +1,54 @@
+/* Formatações Gerais */
+
+.Header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f1f20;
+    height: 80px;
+    box-sizing: border-box;
+}
+
+.Header a{
+    text-decoration: none;
+    color: #dce0e6;
+}
+
+/* Logo */
+
+.Header .header__logo{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+/* Navbar */
+
+.Header .header__nav ul{
+    display: flex; 
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.Header .header__nav li a{
+    padding: 10px;
+    margin: 5px;
+    font-size: 1.1rem;
+}
+
+.Header .header__nav li a:hover{
+    color: #969fad;
+}
+
+/* Icone do carrinho */
+
+.Header .header__nav .cart a{
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+.Header .header__nav .cart span{
+    position: relative;
+    bottom: 10px;
+}
+
+

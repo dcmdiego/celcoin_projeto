@@ -1,0 +1,228 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Tenis 1",
+      "descricao": "Tenis bonito",
+      "preco": 10,
+      "categoria_id": 1
+    },
+    {
+      "id": 2,
+      "nome": "Tenis 2",
+      "descricao": "Tenis bacana :)",
+      "preco": 20,
+      "categoria_id": 1
+    },
+    {
+      "id": 3,
+      "nome": "Tenis 3",
+      "descricao": "Tenis lindo :)",
+      "preco": 30,
+      "categoria_id": 1
+    },
+    {
+      "id": 4,
+      "nome": "Tenis 4",
+      "descricao": "Tenis gentil :)",
+      "preco": 40,
+      "categoria_id": 1
+    },
+    {
+      "id": 5,
+      "nome": "Tenis 5",
+      "descricao": "Tenis educado :)",
+      "preco": 50,
+      "categoria_id": 1
+    },
+    {
+      "id": 6,
+      "nome": "Tenis 6",
+      "descricao": "Tenis leal :)",
+      "preco": 60,
+      "categoria_id": 1
+    },
+    {
+      "id": 7,
+      "nome": "Tenis 7",
+      "descricao": "Tenis legal :)",
+      "preco": 70,
+      "categoria_id": 1
+    },
+    {
+      "id": 8,
+      "nome": "Tenis 8",
+      "descricao": "Tenis amoroso :)",
+      "preco": 80,
+      "categoria_id": 1
+    },
+    {
+      "id": 9,
+      "nome": "Tenis 9",
+      "descricao": "Tenis generoso :)",
+      "preco": 90,
+      "categoria_id": 1
+    },
+    {
+      "id": 10,
+      "nome": "Tenis 10",
+      "descricao": "Tenis simpático :)",
+      "preco": 100,
+      "categoria_id": 1
+    },
+    {
+      "id": 11,
+      "nome": "Camisa 1",
+      "descricao": "Camisa bonita",
+      "preco": 10,
+      "categoria_id": 2
+    },
+    {
+      "id": 12,
+      "nome": "Camisa 2",
+      "descricao": "Camisa bacana :)",
+      "preco": 20,
+      "categoria_id": 2
+    },
+    {
+      "id": 13,
+      "nome": "Camisa 3",
+      "descricao": "Camisa linda :)",
+      "preco": 30,
+      "categoria_id": 2
+    },
+    {
+      "id": 14,
+      "nome": "Camisa 4",
+      "descricao": "Camisa gentil :)",
+      "preco": 40,
+      "categoria_id": 2
+    },
+    {
+      "id": 15,
+      "nome": "Camisa 5",
+      "descricao": "Camisa educada :)",
+      "preco": 50,
+      "categoria_id": 2
+    },
+    {
+      "id": 16,
+      "nome": "Camisa 6",
+      "descricao": "Camisa leal :)",
+      "preco": 60,
+      "categoria_id": 2
+    },
+    {
+      "id": 17,
+      "nome": "Camisa 7",
+      "descricao": "Camisa legal :)",
+      "preco": 70,
+      "categoria_id": 2
+    },
+    {
+      "id": 18,
+      "nome": "Camisa 8",
+      "descricao": "Camisa amorosa :)",
+      "preco": 80,
+      "categoria_id": 2
+    },
+    {
+      "id": 19,
+      "nome": "Camisa 9",
+      "descricao": "Camisa generosa :)",
+      "preco": 90,
+      "categoria_id": 2
+    },
+    {
+      "id": 20,
+      "nome": "Camisa 10",
+      "descricao": "Camisa simpática :)",
+      "preco": 100,
+      "categoria_id": 2
+    },
+    {
+      "id": 21,
+      "nome": "Calça 1",
+      "descricao": "Calça bonita",
+      "preco": 10,
+      "categoria_id": 3
+    },
+    {
+      "id": 22,
+      "nome": "Calça 2",
+      "descricao": "Calça bacana :)",
+      "preco": 20,
+      "categoria_id": 3
+    },
+    {
+      "id": 23,
+      "nome": "Calça 3",
+      "descricao": "Calça linda :)",
+      "preco": 30,
+      "categoria_id": 3
+    },
+    {
+      "id": 24,
+      "nome": "Calça 4",
+      "descricao": "Calça gentil :)",
+      "preco": 40,
+      "categoria_id": 3
+    },
+    {
+      "id": 25,
+      "nome": "Calça 5",
+      "descricao": "Calça educada :)",
+      "preco": 50,
+      "categoria_id": 3
+    },
+    {
+      "id": 26,
+      "nome": "Calça 6",
+      "descricao": "Calça leal :)",
+      "preco": 60,
+      "categoria_id": 3
+    },
+    {
+      "id": 27,
+      "nome": "Calça 7",
+      "descricao": "Calça legal :)",
+      "preco": 70,
+      "categoria_id": 3
+    },
+    {
+      "id": 28,
+      "nome": "Calça 8",
+      "descricao": "Calça amorosa :)",
+      "preco": 90,
+      "categoria_id": 3
+    },
+    {
+      "id": 29,
+      "nome": "Calça 9",
+      "descricao": "Calça generosa :)",
+      "preco": 90,
+      "categoria_id": 3
+    },
+    {
+      "id": 30,
+      "nome": "Calça 10",
+      "descricao": "Calça simpática :)",
+      "preco": 100,
+      "categoria_id": 3
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Tenis"
+    },
+    {
+      "id": 2,
+      "nome": "Camisa"
+    },
+    {
+      "id": 3,
+      "nome": "Calça"
+    }
+  ]
+}

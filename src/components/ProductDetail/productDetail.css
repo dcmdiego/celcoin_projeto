@@ -1,0 +1,146 @@
+.ProductDetail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 80px);
+    flex-wrap: wrap;
+}
+
+.ProductDetail .image__item{
+    width: 500px;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    background-image: url("https://via.placeholder.com/500x500/12322f");
+}
+
+.ProductDetail .content__item{
+    width: 500px;
+    min-height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.ProductDetail .title{
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 10px;
+}
+
+.ProductDetail .info {
+    padding: 20px;
+}
+
+.ProductDetail .info__title{
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.ProductDetail .info__list li{
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+.ProductDetail .info__list li:first-child{
+    font-size: 1.2rem;
+}
+
+.ProductDetail .price, .ProductDetail .quantity{
+    display: inline-block;
+}
+
+.ProductDetail .price{
+    margin-left: 20px;  
+    font-size: 2rem;
+    width: 200px;
+}
+
+.ProductDetail .quantity{
+    margin-left: 30px;
+}
+
+.ProductDetail .quantity button{
+    border: none;
+    border-radius: 10px;
+    width: 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.ProductDetail .quantity__more{
+    background-color: #77dd77;
+    margin-left: 10px;
+}
+
+.ProductDetail .quantity__less{
+    background-color: #ff6961;
+    margin-right: 10px;
+}
+
+.ProductDetail .buy{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.ProductDetail .buy button{
+    border: none;
+    background-color: #3e8cee;
+    height: 40px;
+    width: 60%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.ProductDetail .back{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.ProductDetail .back button{
+    border: none;
+    background-color: #ff574d;
+    height: 30px;
+    font-size: 1.1rem;
+    width: 40%;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Medias */
+
+@media (max-width: 1015px) {
+
+    .ProductDetail{
+        flex-direction: column-reverse;
+    }
+
+    .ProductDetail .image__item{
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    .ProductDetail .content__item{
+        margin-top: 50px;
+    }
+
+}
+
+@media (max-width: 510px) {
+
+    .ProductDetail .image__item{
+        background-image: url("https://via.placeholder.com/350x350/12322f");
+        width: 350px;
+        height: 350px;
+    }
+
+    .ProductDetail .content__item{
+        width: 350px;
+    }
+
+    .ProductDetail .back{
+        margin-bottom: 10px;
+    }
+}
+

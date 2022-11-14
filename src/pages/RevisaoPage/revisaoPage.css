@@ -1,0 +1,67 @@
+/* Formatações Gerais */
+
+.RevisaoPage .content__revisao {
+  min-height: calc(100vh - 80px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.RevisaoPage .content__revisao a{
+    text-decoration: none;
+    color: black;
+}
+
+.RevisaoPage .content__revisao > div {
+  min-width: 300px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  border: 3px solid black;
+  border-radius: 3px;
+  margin: 10px;
+  font-size: 1.1rem;
+}
+
+.RevisaoPage .content__revisao > div h2 {
+  position: absolute;
+  top: 10px;
+  left: 100px;
+}
+
+.RevisaoPage .content__revisao > div ul {
+  margin-left: 30px;
+}
+
+/* Preço Total */
+
+.RevisaoPage .content__revisao__total {
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 5px;
+  left: 20px;
+}
+
+/* Botões */
+
+.RevisaoPage .content__revisao__buttons div {
+  text-align: center;
+  padding: 20px;
+}
+
+.RevisaoPage .content__revisao__buttons button {
+  width: 60%;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.RevisaoPage .content__revisao__buttons .confirm {
+  background-color: #77dd77;
+}
+
+.RevisaoPage .content__revisao__buttons .back {
+  background-color: #ff6961;
+}

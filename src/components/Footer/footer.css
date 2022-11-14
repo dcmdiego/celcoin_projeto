@@ -1,0 +1,10 @@
+/* Formatações Gerais */
+
+.Footer{
+    background-color: #1f1f20;
+    color: #dce0e6;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}

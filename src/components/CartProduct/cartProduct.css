@@ -1,0 +1,68 @@
+/* Formatações Gerais */
+
+.CartProduct{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    height: 150px;
+    width: 380px;
+    align-items: center;
+    justify-items: center;
+}
+
+/* Imagem */
+
+.CartProduct .image{
+    background: url("https://via.placeholder.com/150x150/12322f");
+    width: 150px;
+    height: 150px;
+}
+
+/* Item (produto) */
+
+.CartProduct .product{
+    margin-left: 20px;
+}
+
+.CartProduct .product div{
+    padding: 5px;
+}
+
+.CartProduct .title{
+    font-size: 0.7rem;
+}
+
+.CartProduct .quantity{
+    margin-top: 20px;
+}
+
+.CartProduct .quantity button{
+    border: none;
+    border-radius: 10px;
+    width: 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.CartProduct .quantity__more{
+    background-color: #77dd77;
+    margin-left: 10px;
+}
+
+.CartProduct .quantity__less{
+    background-color: #ff6961;
+    margin-right: 10px;
+}
+
+/* Remover item */
+
+.CartProduct .remove__product .remove__product__button{ 
+    border: none;
+    background-color: #FFF;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+

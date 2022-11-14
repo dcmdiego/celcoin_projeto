@@ -1,0 +1,72 @@
+/* Formatações Gerais */
+
+.InicioPage .content{
+    min-height: calc(100vh - 80px);
+}
+
+.InicioPage .content h2{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 60px;
+}
+
+.InicioPage .content a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Formatações das listas */
+
+.InicioPage .content ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.InicioPage .content .info__list{
+    margin-top: 40px;
+}
+
+.InicioPage .content .info__item{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    width: 500px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.InicioPage .content .info__item a{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.InicioPage .content .section__list{
+    margin-top: 30px;
+}
+
+.InicioPage .content .section__item{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    transition: all .2s ease-in-out
+}
+
+/* Medias */
+
+@media (max-width: 1080px) {
+
+    .InicioPage .content .info__item {
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    }
+
+}

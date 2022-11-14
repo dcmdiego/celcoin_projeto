@@ -1,0 +1,45 @@
+.Form{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 80px;
+    width: 420px;
+    display: flex;
+    justify-content: center;
+}
+
+.Form div{
+    padding: 10px;
+    text-align: left;
+}
+
+.Form div h3{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.Form div label{
+    width: 248px;
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.Form div input{
+    height: 30px;
+    padding-left: 10px;
+    position: relative;
+    width: 250px;
+    box-sizing: border-box;
+}
+
+.Form div input[type="submit"] {
+    border: none;
+    background-color: #3e8cee;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.Form div input[type="date"]::-webkit-inner-spin-button,
+.Form div input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+}

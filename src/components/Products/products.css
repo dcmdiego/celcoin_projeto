@@ -1,0 +1,44 @@
+/* Barra de pesquisa */
+
+.Products .products__search{
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.Products .products__search input{
+    width: 300px;
+    height: 40px;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.Products .products__search .search__icon{
+    position: relative;
+    left: 20px;
+    top: 2px;
+}
+
+
+.Products .products__search .search__remove{
+    position: relative;
+    right: 20px;
+    cursor: pointer;
+    color: red;
+    font-weight: bolder;
+}
+
+
+
+/* Lista dos produtos */
+
+.Products .products__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
