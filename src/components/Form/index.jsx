@@ -28,7 +28,8 @@ const Form = () => {
     useEffect(() => {
 
         if (cep.length === 8) {
-            axios.get(`https://viacep.com.br/ws/${cep}/json/`)
+            const url = process.env.REACT_APP_CPF_KEY;
+            axios.get(`${url}/${cep}/json/`)
             .then(res => {
                 setLogradouro(res.data.logradouro);
                 setBairro(res.data.bairro);
